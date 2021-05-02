@@ -1,0 +1,96 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home1 {
+  display: flex;
+  align-items: center;
+}
+
+.sorting {
+  flex: 0.5;
+  margin-left: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  object-fit: contain;
+  background-color: wheat;
+  position: absolute;
+  top: 230px;
+  left: 110px;
+}
+.sortingtwo {
+  flex: 0.5;
+  margin-left: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  object-fit: contain;
+  background-color: wheat;
+  position: absolute;
+  top: 230px;
+  left: 660px;
+}
+
+@media only screen and (min-width: 1390px) {
+  .sortingtwo {
+    top: 230px;
+    left: 695px;
+  }
+  .sorting {
+    top: 230px;
+    left: 145px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .sortingtwo {
+    top: 230px;
+    left: 640px;
+  }
+  .sorting {
+    top: 230px;
+    left: 90px;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .sortingtwo {
+    top: 230px;
+    left: 590px;
+  }
+  .sorting {
+    top: 230px;
+    left: 60px;
+  }
+}
+.textt {
+  color: purple !important;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  flex-direction: column;
+}
+.righht {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px;
+  font-style: normal;
+  color: black;
+}
+
+.sortingtwo:hover {
+  transform: scale(1.02);
+  border-color: purple;
+}
+.sorting:hover {
+  transform: scale(1.02);
+  border-color: purple;
+}
+.sorting:focus {
+  outline: none;
+}

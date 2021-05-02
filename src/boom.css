@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+#myVideo{
+    /* Video by Pressmaster from Pexels */
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.mainsection h1{
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: fit-content;
+    color:white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+     font-size: 2.5rem;
+    font-weight: bold; 
+}
+.mainsection p{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: fit-content;
+    color:white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logo{
+	 position: absolute;
+    top: 67%;
+    right: 49%;
+    transform: translate(50%, -50%);
+    width: fit-content;
+    color:white;
+	font-size: 2rem;
+    margin-left: 5rem;
+    border: 1px solid white;
+    border-radius: 15%;
+    padding: 0.25rem;
+    background-color: rgb(7, 4, 53);
+    font-family:'Times New Roman', Times, serif
+}
